@@ -1,0 +1,17 @@
+.amazon {
+  width: 200px;
+  height: auto;
+  position: relative;
+  top: 13px;
+}
+
+.btn {
+  width: 500px;
+}
+
+hr {
+  border-top: 2px solid #b4b4b4;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
