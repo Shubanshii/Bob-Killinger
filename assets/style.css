@@ -5,6 +5,10 @@
   top: 13px;
 } */
 
+.universal-margin {
+  margin-bottom: 30px;
+}
+
 .bob-top {
   width: 100%;
 }
@@ -24,8 +28,15 @@ hr {
   width: 100%;
 }
 
+
+
 .logo {
   width: 100%;
+}
+
+.logo:hover {
+  background-color:#000;
+    opacity:0.5;
 }
 
 .barnes {
@@ -42,6 +53,18 @@ hr {
   .amazon {
     position: relative;
     top: -4%;
+  }
+
+  .maker-div {
+    padding: 100px;
+  }
+
+  .valhalla-div {
+    padding: 100px;
+  }
+
+  .disappearing-div {
+    padding: 100px;
   }
 
 }
