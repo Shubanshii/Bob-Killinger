@@ -25,6 +25,10 @@ body {
   color: white;
 }
 
+.carousel-img {
+  height: 600px;
+}
+
 hr {
   border-top: 2px solid #b4b4b4;
   width: 75%;
