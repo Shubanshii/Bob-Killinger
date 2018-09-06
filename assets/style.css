@@ -32,9 +32,7 @@ body {
   color: white;
 }
 
-.carousel-inner {
-  height: 500px;
-}
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -99,12 +97,6 @@ hr {
   .description {
     text-align: center;
   }
-
-
-}
-
-@media (max-width: 768px) {
-
   .carousel-indicators {
     display: none;
   }
@@ -120,15 +112,20 @@ hr {
 
 }
 
+@media (max-width: 768px) {
+
+
+
+}
+
 @media (min-width: 576px) {
   .amazon {
     position: relative;
     top: -4%;
   }
-
-
-
-
+  .carousel-inner {
+    height: 500px;
+  }
 
 
 }
