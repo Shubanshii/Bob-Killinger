@@ -12,6 +12,21 @@ body {
   /* color: white; */
 }
 
+.header {
+  padding-top: 20px;
+}
+
+.wrapper {
+
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 4vw;
+
+}
+
 .carousel-control-next-icon {
 
 }
@@ -23,9 +38,23 @@ body {
 .top-margin {
   margin-top: 100px;
 }
-.bob-top {
-  width: 100%;
+
+nav {
+  text-align: center;
 }
+
+.nav-color {
+  color: gray;
+}
+
+ul {
+  list-style: none;
+
+}
+
+
+
+
 
 .about {
   color: white;
@@ -116,6 +145,10 @@ hr {
     display:none;
 
   }
+  .bob-top {
+    width: 100%
+
+  }
 
 }
 
@@ -134,7 +167,20 @@ hr {
     height: 500px;
   }
 
+  .bob-top {
+    height:150px;
+    width: auto;
 
+  }
+  li {
+    display: inline-block;
+
+  }
+  .nav-line::after {
+    margin: 0 10px 0 15px;
+    content: "|";
+    color: gray;
+  }
 }
 
 @media (min-width: 768px) {
@@ -151,6 +197,11 @@ hr {
   .disappearing-div {
     padding: 100px;
   }
+  .bob-top {
+    height:200px;
+    width: auto;
+
+  }
 }
 
 @media (min-width: 992px) {
@@ -166,6 +217,7 @@ hr {
   .quotes-disappear {
     padding-top: 25px;
   }
+
 
 }
 @media (min-width: 1200px) {
