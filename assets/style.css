@@ -27,9 +27,6 @@ body {
 
 }
 
-.carousel-control-next-icon {
-
-}
 
 .universal-margin {
   margin-bottom: 30px;
@@ -93,17 +90,8 @@ ul {
 } */
 
 
-
-.carousel-img {
-  /* height: 600px; */
-}
-
-.carousel-indicators {
-  /* padding-top: 500px; */
-}
-
 hr {
-  border-top: 2px solid #b4b4b4;
+  border-top: 2px solid black;
   width: 75%;
   margin-top: .8rem;
   margin-bottom: 1rem;
@@ -114,7 +102,9 @@ hr {
   width: 100%;
 }
 
-
+.book-heading {
+  color: gray;
+}
 
 .logo {
   width: 100%;
@@ -216,6 +206,14 @@ hr {
 
   .quotes-disappear {
     padding-top: 25px;
+  }
+  .carousel-book {
+    height: 500px;
+    width: auto;
+  }
+
+  .carousel-book-div {
+    padding-left: 130px;
   }
 
 
