@@ -166,6 +166,7 @@ hr {
 
   .top-photo {
     padding-right: 0px;
+    box-shad
   }
 
 }
@@ -194,11 +195,11 @@ hr {
     display: inline-block;
 
   }
-  /* .nav-line::after {
+  .nav-line::after {
     margin: 0 10px 0 15px;
     content: "|";
     color: gray;
-  } */
+  }
 }
 
 @media (min-width: 768px) {
