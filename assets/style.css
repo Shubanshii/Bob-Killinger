@@ -12,6 +12,14 @@ body {
   /* color: white; */
 }
 
+.white-background {
+  background-color: white;
+}
+
+.banner-img {
+  width: 100%;
+}
+
 .header {
   padding-top: 20px;
 }
@@ -131,6 +139,10 @@ hr {
   margin-bottom: 10%;
 }
 
+
+
+
+
 @media (max-width: 576px) {
   .description {
     text-align: center;
@@ -150,6 +162,10 @@ hr {
   .bob-top {
     width: 100%
 
+  }
+
+  .top-photo {
+    padding-right: 0px;
   }
 
 }
@@ -178,11 +194,11 @@ hr {
     display: inline-block;
 
   }
-  .nav-line::after {
+  /* .nav-line::after {
     margin: 0 10px 0 15px;
     content: "|";
     color: gray;
-  }
+  } */
 }
 
 @media (min-width: 768px) {
